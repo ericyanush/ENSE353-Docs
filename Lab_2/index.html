@@ -4,7 +4,7 @@
 <!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>Linux Intro</title>
+    <title>Lab 2</title>
     <meta name="description" content="Lab Exercise Documentation" />
     <meta name="author" content="Eric Yanush">
     <meta charset="UTF-8">
@@ -39,32 +39,27 @@
                     </div>
                     <div id="sub-nav-collapse" class="sub-nav-collapse">
                         <!-- Navigation -->
-                        <ul class="nav nav-list"><li><a href="../Overview.html">Overview</a></li><li class="open"><a href="../Lab_1/index.html" class="folder">Lab 1</a><ul class="nav nav-list"><li><a href="../Lab_1/Box_Building.html">Box Building</a></li><li><a href="../Lab_1/OS_Install.html">OS Install</a></li><li class="active"><a href="../Lab_1/Linux_Intro.html">Linux Intro</a></li></ul></li><li><a href="../Lab_2/index.html" class="folder">Lab 2</a><ul class="nav nav-list"><li><a href="../Lab_2/Cable_Making.html">Cable Making</a></li><li><a href="../Lab_2/Connecting_Network.html">Connecting Network</a></li><li><a href="../Lab_2/Remote_SSH_Access.html">Remote SSH Access</a></li></ul></li><li><a href="#" class="aj-nav folder">Assignment 1</a><ul class="nav nav-list"><li><a href="../Assignment_1/Linux_Commands.html">Linux Commands</a></li></ul></li></ul>                                            </div>
+                        <ul class="nav nav-list"><li><a href="../Overview.html">Overview</a></li><li><a href="../Lab_1/index.html" class="folder">Lab 1</a><ul class="nav nav-list"><li><a href="../Lab_1/Box_Building.html">Box Building</a></li><li><a href="../Lab_1/OS_Install.html">OS Install</a></li><li><a href="../Lab_1/Linux_Intro.html">Linux Intro</a></li></ul></li><li class="open"><a href="../Lab_2/index.html" class="folder">Lab 2</a><ul class="nav nav-list"><li><a href="../Lab_2/Cable_Making.html">Cable Making</a></li><li><a href="../Lab_2/Connecting_Network.html">Connecting Network</a></li><li><a href="../Lab_2/Remote_SSH_Access.html">Remote SSH Access</a></li></ul></li><li><a href="#" class="aj-nav folder">Assignment 1</a><ul class="nav nav-list"><li><a href="../Assignment_1/Linux_Commands.html">Linux Commands</a></li></ul></li></ul>                                            </div>
                 </div>
                 <div class="right-column  content-area col-sm-9">
                     <div class="content-page">
                         <article>
                                                             <div class="page-header sub-header clearfix">
-                                    <h1><a href="../Lab_1">Lab 1</a> <i class="glyphicon glyphicon-chevron-right"></i> <a href="../Lab_1/Linux_Intro.html">Linux Intro</a>                                                                            </h1>
+                                    <h1><a href="../Lab_2">Lab 2</a>                                                                            </h1>
                                     <span style="float: left; font-size: 10px; color: gray;">
                                         Wednesday, May 27, 2015                                    </span>
                                     <span style="float: right; font-size: 10px; color: gray;">
-                                        12:47 PM                                    </span>
+                                        12:58 PM                                    </span>
                                 </div>
                             
-                            <p>With a fully functioning CENTOS install, we were provided with a few linux commands to help us become familiar with Linux and our machines.</p>
-<p>We we provided with the commands</p>
-<pre><code>$ dmesg</code></pre>
-<p>The dmesg command replays the data in the current kernel log (data collected since last log file rotation).</p>
-<pre><code>$ grep [pattern]</code></pre>
-<p>The grep command filters and displays lines of data which contain the data pattern specified
-We were also told about the pipe (|), used to <em>pipe</em> the output of one command into the input of another.</p>
-<p>We were give the task of identifying the MAC address of the builtin ethernet controller of our machine. The suggested command to identify the address was </p>
-<pre><code>$ dmesg | grep MAC</code></pre>
-<p>However, depending on hardware, in some machines, like mine, this did not identify the MAC address. I found mine by alternatively piping the output of the kernel log into the less command:</p>
-<pre><code>$ dmesg | less</code></pre>
-<p>and subsequently reading the file line by line and manually identifying the MAC address. Using this method, it was noted that it would have been more reliable to identify the MAC address of the ethernet device (the only network device on the machine) by searching for the kernel log for the interface name, eth0, using the following command:</p>
-<pre><code>$ dmesg | grep eth0</code></pre>                                                    </article>
+                            <h3>Lab 2 - Getting Networked</h3>
+<hr />
+<p>The goals of this lab period are to:</p>
+<ol>
+<li><a href="Cable_Making.html">Construct a functional Ethernet Network Cable</a></li>
+<li><a href="Connecting_Network.html">Connecting to the Internet</a></li>
+<li><a href="Remote_SSH_Access.html">Connecting remotely</a></li>
+</ol>                                                    </article>
                     </div>
                 </div>
             </div>
