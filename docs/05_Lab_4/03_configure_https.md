@@ -1,4 +1,4 @@
-The third exercise assigned for the second lab was to configure your machine's webserver to use https.
+The third exercise assigned for the fourth lab was to configure your machine's webserver to use https.
 
 ###Requirements
 ------------------------

@@ -1,4 +1,4 @@
-The second exercise assigned for the second lab was to install PHPMyAdmin to make administering the LAMP stack easier.
+The second exercise assigned for the fourth lab was to install PHPMyAdmin to make administering the LAMP stack easier.
 
 ###Requirements
 ------------------------

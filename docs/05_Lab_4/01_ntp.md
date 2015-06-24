@@ -1,4 +1,4 @@
-The first exercise assigned for the second lab was to get NTP (Network Time Protocol Functioning).
+The first exercise assigned for the fourth lab was to get NTP (Network Time Protocol Functioning).
 
 ###Requirements
 ------------------------
