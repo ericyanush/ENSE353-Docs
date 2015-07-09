@@ -10,6 +10,7 @@ Selected Assignments will also be available here.
 4. [Configuring HTTPS, NTP, and PHPMyAdmin](Lab_4/index.html)
 5. [Setting up DNS and E-Mail Servers](Lab_5/index.html)
 6. [Enabling simple email use with Dovecot and Squirrelmail](Lab_6/index.html)
+7. [Getting Visual: Install a GUI](Lab_7/index.html)
 
 ###Assignments
 ---------------------
