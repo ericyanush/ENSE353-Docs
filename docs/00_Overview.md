@@ -11,6 +11,7 @@ Selected Assignments will also be available here.
 5. [Setting up DNS and E-Mail Servers](Lab_5/index.html)
 6. [Enabling simple email use with Dovecot and Squirrelmail](Lab_6/index.html)
 7. [Getting Visual: Install a GUI](Lab_7/index.html)
+8. [Building a NAT Router](Lab_8/index.html)
 
 ###Assignments
 ---------------------
